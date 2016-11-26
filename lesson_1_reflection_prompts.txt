@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    FC/diff command help user to find out diff by selecting out the differences 
+	between two files and displaying diff in numerical order
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can look back previous version of codes to compare with current code 
+	without searching the old file manually, so it can save times and gurantee
+	the exsistance of the previous version of file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Choosing Judgement call manually is effective to arrange the versioning process,
+	but programmer can clutter up versioning by missing commit or making mistake in judement call.
+	automatic commit can prevent missing commit or data loss, but it will make hard to efficient 
+	version scheduling.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    we use git to versioning programming material and the materials form program by 
+	being connected to each others. so the version control system should allow saving
+	multiple files in one commit to mainain realationship between the files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can browse the hisory of commits using 'git log' and compare two commits using 
+	syntax 'git diff [commit ID 1] [commit ID 2]'. And with 'git log --stat', I can directly
+	check how many lines are insered and deledted without using 'git diff' command
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The version control ensure safety of previous code by providing back up and restoring method 
+	such as checkout command in git, and we can go back to previous commit if we run into error in current commit 	
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'm taking VR Developer course on Udacity, and I hope to manage my C# scripts using git
